@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.waterfairy.flipview.MainActivity">
+
+
+    <com.waterfairy.flipview.PageView2
+    android:id="@+id/page_view"
+    android:layout_width="1000px"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"/>
+    <!--<com.waterfairy.flipview.FlipView-->
+        <!--android:id="@+id/flip_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/path"/>
+
+        <Button
+            android:id="@+id/load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="load"/>
+    </LinearLayout>
+</RelativeLayout>
