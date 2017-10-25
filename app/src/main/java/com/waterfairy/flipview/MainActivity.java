@@ -14,21 +14,19 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "main";
-    private PageView2 pageView;
-    private FlipView flipView;
+    private FlipView pageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        pageView = (PageView2) findViewById(R.id.page_view);
+        pageView = (FlipView) findViewById(R.id.page_view);
 //        flipView = (FlipView) findViewById(R.id.flip_view);
 
     }

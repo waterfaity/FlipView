@@ -8,9 +8,9 @@
     tools:context="com.waterfairy.flipview.MainActivity">
 
 
-    <com.waterfairy.flipview.PageView2
+    <com.waterfairy.flipview.FlipView
     android:id="@+id/page_view"
-    android:layout_width="1000px"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_centerInParent="true"/>
     <!--<com.waterfairy.flipview.FlipView-->
